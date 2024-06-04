@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extinct Animals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 id="gradient-text">Lets explore our Extinct Species</h1>
+        
+        
+    </header>
+
+    <div class="container">
+    <button class="prev" onclick="slideCards(-1)">&#10094;</button>
+    <div class="slider-wrapper">
+        <div class="cards">
+        <div class="card">
+        <div class="img-container">
+            <div id="hear-me"><button onclick="audio1.play()" id="hear-1">🎵</button></div>
+            <img src="https://images.unsplash.com/photo-1694199475565-e1af3f314dd8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9kbyUyMGJpcmR8ZW58MHx8MHx8fDA%3D" alt="Dodo">
+        
+        </div>
+            <div class="intro">
+                
+                <h1>Dodo</h1>
+                <p>An extinct flightless bird that inhabited Mauritius, the Dodo was about one metre tall and may have weighed 10–18 kg.Dutch sailors first recorded a mention of the dodo in 1598. The bird was hunted to extinction by sailors and their domesticated animals, and invasive species.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-container">
+                <div id="hear-me"><button onclick="audio2.play()" id="hear-2">🎵</button></div>
+            <img src="https://i.redd.it/a-life-sized-model-of-a-thylacine-aka-the-tasmanian-tiger-v0-wiee02kajs0d1.jpg?width=2048&format=pjpg&auto=webp&s=cfbc07e9aee006af09cc4875ec4705589b9e42c1"
+                alt="Tasmanian Tiger">
+                </div>
+            <div class="intro">
+                <h1>Tasmanian Tiger</h1>
+                <p>Native to Australia, Tasmania and New Guinea, the Tasmanian Tiger was a large carnivorous marsupial. Not related to
+                tigers, the creature had the appearance of a medium-to-large-size dog (it weighed 30kg with a nose to tail length of
+                almost 2 metres).</p>
+            </div>
+        </div>
+        <div class="card">
+            <div id="img-container">
+
+                <div class="hear-me">
+                    <audio id="audio" src="sounds/wolly-mammoth.mp3"></audio>
+                    <button onclick="playAudioForDuration()" id="hear-3">🎵</button></div>
+            <img src="https://cdn.britannica.com/09/74609-159-5F6CDC37/Wooly-mammoth-replica-species-Canadian-extinct.jpg"
+                alt="Woolly Mammoth">
+                </div>
+            <div class="intro">
+                <h1>Woolly Mammoth</h1>
+                <p>An enormous mammal, believed to be closely related to the modern-day elephant. Its ancestors migrated out of Africa
+                about 3.5 million years ago, spreading across northern Eurasia and North America. The creature was over 4 metres tall
+                and could weigh over 6 tons.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div id="img-container">
+        
+                <div class="hear-me">
+                    
+                    <button onclick="audio4.play()" id="hear-4">🎵</button>
+                </div>
+                <img src="https://images.csmonitor.com/csm/2015/10/938806_1_ibex_standard.jpg?alias=standard_900x600nc"
+                    alt="Pyrenean Ibex">
+            </div>
+            <div class="intro">
+                <h1>Pyrenean Ibex</h1>
+                <p>One of four subspecies of the Spanish Ibex or Iberian Goat that was found in the Iberian Peninsula. The Ibex would grow
+                to a height of 60-76cm at the shoulder and weigh 24-80 kg and fed mainly on grasses and herbs.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div id="img-container">
+        
+                <div class="hear-me">
+                    
+                    <button onclick="audio5.play()" id="hear-5">🎵</button>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStgK0T7ZCrW0DVkLamYZWts3t_g5AVsEYuJw&s"
+                    alt="Stellers Sea Cow">
+            </div>
+            <div class="intro">
+                <h1>Stellers Sea Cow</h1>
+                <p>Named after George Steller, a naturalist who discovered the creature in 1741, Stellers Sea Cow was a large herbivorous
+                mammal. It is believed that Stellers Sea Cow which grew to at least 8-9 metres and weighed around 8-10 tons.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div id="img-container">
+        
+                <div class="hear-me">
+                    <audio id="audio6" src="sounds/great-auk1.mp3"></audio>
+                    <button onclick="playAudioForDuration1()" id="hear-6">🎵</button>
+                </div>
+                <img src="https://media.longnow.org/files/2/Gazza-marina-Hornoya_MRavasini_IMG_6620.jpg"
+                    alt="Great Auk">
+            </div>
+            <div class="intro">
+                <h1>Great Auk</h1>
+                <p>A large and flightless bird found in the North Atlantic and as far south as Northern Spain. It had an average height of
+                75-85 cm and weighed about 5kg. The Great Auk was a powerful swimmer which helped it to hunt underwater for food.
+                </p>
+            </div>
+            </div>
+            </div>
+           </div>
+        </div>
+        <button class="next" onclick="slideCards(1)">&#10095;</button>
+        </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
